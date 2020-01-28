@@ -1,0 +1,175 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+body header, body main {
+	color: #181818;
+	background-color: #fff;
+	width: 80%;
+	display: block;
+	margin: auto;
+}
+
+h2 {
+	font-size: 50px;
+}
+
+
+.margin-section {
+	margin: 6% 0;
+}
+
+.title-img {
+	width: 60%;
+	display: block;
+	margin: auto;
+	padding: 1rem;
+}
+
+header nav {
+	width: 60%;
+	display: block;
+	margin: auto;
+}
+
+header nav ul {
+	display: flex;
+	justify-content: space-between;
+}
+
+header nav li {
+	list-style: none;
+}
+
+header nav a {
+	text-decoration: none;
+	color: #181818;
+}
+
+header nav a:hover {
+	color: #565656;
+}
+
+main {
+	text-align: center;
+}
+
+main p.txt-main {
+	font-size: 20px;
+}
+
+main section article {
+	display: flex;
+}
+
+main section article p {
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+main section article div.img-1,
+main section article div.img-2,
+main section article div.img-3 {
+	width: 50%;
+	display: block;
+	justify-content: center;
+	align-items: center;
+}
+
+
+main section article .img-1 {
+	background-image: url('../images/img-1.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	width: 300px;
+	height: 300px;
+}
+
+main section article .img-2 {
+	background-image: url('../images/img-2.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	width: 300px;
+	height: 300px;
+}
+
+main section article .img-3 {
+	background-image: url('../images/img-3.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	width: 300px;
+	height: 300px;
+}
+
+.team .team-container {
+	display: flex;
+	justify-content: space-around;
+}
+
+.team .person img {
+	width: 150px;
+	border-radius: 50%;
+	box-shadow: 0 5px 10px 0 gray;
+	margin: 30px 0;
+}
+
+footer {
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	background-color: #2c2c2c;
+	color: #ffffff;
+	padding: 20px 0;
+	text-align: center;
+	font-size: 15px;
+}
+
+footer p.txt-footer a {
+	
+	color: #ffffff;
+}
+
+@media screen and (max-width: 500px) {
+
+	.margin-section {
+		margin: 0;
+	}
+
+	.title-img {
+		width: 95%;
+	}
+
+	header nav {
+		width: 95%;
+	}
+
+	header nav ul {
+		display: inline;
+		text-align: center;
+	}
+
+	header nav ul a .link-inicio {
+		border-top: 1px solid #181818;
+	} 
+
+	header nav li {
+		border-bottom: 1px solid #181818;
+		padding: 1em
+	}
+
+	header nav li:hover {
+		background-color: #D9D8D8;
+		color: #000;
+	}
+
+	.team .team-container {
+		display: inherit;
+	}
+}
